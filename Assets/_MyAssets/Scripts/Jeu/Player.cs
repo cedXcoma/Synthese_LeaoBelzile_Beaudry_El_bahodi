@@ -88,8 +88,7 @@ public class Player : MonoBehaviour
         if (_viesJoueur < 1)
         {
             _spawnManager.mortJoueur();
-            Instantiate(_bigExplosionPrefab, transform.position, Quaternion.identity);
-            AudioSource.PlayClipAtPoint(_endSound, Camera.main.transform.position, 0.8f);
+            Instantiate(_bigExplosionPrefab, transform.position, Quaternion.identity);         
             Destroy(this.gameObject);
         }
     }

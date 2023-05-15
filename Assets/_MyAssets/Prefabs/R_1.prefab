@@ -148,4 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _points: 100
   _enemyLaserPrefab: {fileID: 0}
-  _explosionPrefab: {fileID: 0}
+  _explosionPrefab: {fileID: 3188567036957634597, guid: 5151919f329a4c1449d8be3f7e78bfa0, type: 3}
