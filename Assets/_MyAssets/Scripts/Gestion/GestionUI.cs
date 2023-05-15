@@ -11,6 +11,7 @@ public class GestionUI : MonoBehaviour
     [SerializeField] private GameObject _pausePanel = default;
 
     [SerializeField] private float _vitesseEnnemi = 9.0f;
+    [SerializeField] private float _vitessePommeBleue = 2.0f;
     [SerializeField] private float _augVitesseParNiveau = 2.0f;
     [SerializeField] private int _pointageAugmentation = 500;
 
@@ -101,5 +102,9 @@ public class GestionUI : MonoBehaviour
     public float getVitesseEnnemi()
     {
         return _vitesseEnnemi;
+    }
+    public float getVitessePommeBleue()
+    {
+        return _vitessePommeBleue;
     }
 }
