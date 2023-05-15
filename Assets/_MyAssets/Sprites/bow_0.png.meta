@@ -145,11 +145,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 270
-        width: 70
-        height: 90
+        y: 362
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: bow_0_1
       rect:
         serializedVersion: 2
-        x: 70
-        y: 270
-        width: 70
-        height: 90
+        x: 90
+        y: 349
+        width: 90
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,12 +186,12 @@ TextureImporter:
       name: bow_0_2
       rect:
         serializedVersion: 2
-        x: 140
-        y: 270
-        width: 70
-        height: 90
+        x: 180
+        y: 363
+        width: 90
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,12 +207,12 @@ TextureImporter:
       name: bow_0_3
       rect:
         serializedVersion: 2
-        x: 210
-        y: 270
-        width: 70
-        height: 90
+        x: 270
+        y: 351
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,12 +228,12 @@ TextureImporter:
       name: bow_0_4
       rect:
         serializedVersion: 2
-        x: 280
-        y: 270
-        width: 70
-        height: 90
+        x: 0
+        y: 296
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,12 +249,12 @@ TextureImporter:
       name: bow_0_5
       rect:
         serializedVersion: 2
-        x: 350
-        y: 270
-        width: 70
-        height: 90
+        x: 90
+        y: 281
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,18 +270,18 @@ TextureImporter:
       name: bow_0_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 180
-        width: 70
-        height: 90
+        x: 180
+        y: 298
+        width: 90
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e9bff63307fc7d438f4f9b91674d044
+      spriteID: bbbe0c1cd7505e145bcff9666c3c07c8
       internalID: -879679062
       vertices: []
       indices: 
@@ -291,18 +291,18 @@ TextureImporter:
       name: bow_0_7
       rect:
         serializedVersion: 2
-        x: 70
-        y: 180
-        width: 70
-        height: 90
+        x: 270
+        y: 282
+        width: 90
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b5c49192c88bd841bc4dfd27bf8f143
+      spriteID: 301a9d08fad3a9445a44fda74833876b
       internalID: -77287736
       vertices: []
       indices: 
@@ -312,18 +312,18 @@ TextureImporter:
       name: bow_0_8
       rect:
         serializedVersion: 2
-        x: 140
-        y: 180
-        width: 70
-        height: 90
+        x: 0
+        y: 226
+        width: 90
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf3ccd20c1d04f541b744d381df68cb4
+      spriteID: f6037dd8e8862bc4983e374b245ff303
       internalID: -1301741905
       vertices: []
       indices: 
@@ -333,18 +333,18 @@ TextureImporter:
       name: bow_0_9
       rect:
         serializedVersion: 2
-        x: 210
-        y: 180
-        width: 70
-        height: 90
+        x: 90
+        y: 212
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f59dc603330a1b458391235669048c1
+      spriteID: 7568f20dd8f83bd4e8cb5221196950fe
       internalID: 944168799
       vertices: []
       indices: 
@@ -354,18 +354,18 @@ TextureImporter:
       name: bow_0_10
       rect:
         serializedVersion: 2
-        x: 280
-        y: 180
-        width: 70
-        height: 90
+        x: 180
+        y: 229
+        width: 90
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 579ea4fc25af3904ebc647ebecb3e35b
+      spriteID: 47ed6810c8f0b16408e1cce519188b94
       internalID: 1014382571
       vertices: []
       indices: 
@@ -375,18 +375,18 @@ TextureImporter:
       name: bow_0_11
       rect:
         serializedVersion: 2
-        x: 350
-        y: 180
-        width: 70
-        height: 90
+        x: 270
+        y: 215
+        width: 90
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61ebbf0a260e1d647a7d14debd40e1bb
+      spriteID: a47ef5f613b2a9b46b89a50fa0629632
       internalID: -1285129292
       vertices: []
       indices: 
@@ -397,17 +397,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 90
-        width: 70
-        height: 90
+        y: 159
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25d485aaa7b0464a8ef5274511cae89
+      spriteID: b1268a8e564cb9f4e8eaec191a0fc466
       internalID: -548060689
       vertices: []
       indices: 
@@ -417,18 +417,18 @@ TextureImporter:
       name: bow_0_13
       rect:
         serializedVersion: 2
-        x: 70
-        y: 90
-        width: 70
-        height: 90
+        x: 90
+        y: 145
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3d83e9b87d98c34e821dc0dce16a7fc
+      spriteID: b47121f5355e50e4eb851a36000ebdf2
       internalID: -1526559199
       vertices: []
       indices: 
@@ -438,18 +438,18 @@ TextureImporter:
       name: bow_0_14
       rect:
         serializedVersion: 2
-        x: 140
-        y: 90
-        width: 70
-        height: 90
+        x: 180
+        y: 161
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9565053668246c747adb311ae15785b2
+      spriteID: 9f5d2ebc2fe6aed4e9f72fc9449ba148
       internalID: 1688675230
       vertices: []
       indices: 
@@ -459,18 +459,18 @@ TextureImporter:
       name: bow_0_15
       rect:
         serializedVersion: 2
-        x: 210
-        y: 90
-        width: 70
-        height: 90
+        x: 270
+        y: 147
+        width: 90
+        height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ef129606a27bc84fba640b1bca83b88
+      spriteID: 145b284aa517ecc4c889527756fe3112
       internalID: 1458899772
       vertices: []
       indices: 
@@ -480,18 +480,18 @@ TextureImporter:
       name: bow_0_16
       rect:
         serializedVersion: 2
-        x: 280
-        y: 90
-        width: 70
-        height: 90
+        x: 0
+        y: 94
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f2d9f0b08d06141abca12fa5608764
+      spriteID: 9047ab6774b034240ad98b8727a0d08d
       internalID: 103877467
       vertices: []
       indices: 
@@ -501,18 +501,18 @@ TextureImporter:
       name: bow_0_17
       rect:
         serializedVersion: 2
-        x: 350
-        y: 90
-        width: 70
-        height: 90
+        x: 90
+        y: 78
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0283e53ec7e11a349b87b4e049df5e54
+      spriteID: ef309b1a80086e443a52d670f52f7893
       internalID: 1183384197
       vertices: []
       indices: 
@@ -522,18 +522,18 @@ TextureImporter:
       name: bow_0_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 70
-        height: 90
+        x: 180
+        y: 94
+        width: 90
+        height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1c3351b06f5dc0458be330aa270b992
+      spriteID: dcf2dee103d1e7d49a5215f40c912bbe
       internalID: 605820906
       vertices: []
       indices: 
@@ -543,18 +543,18 @@ TextureImporter:
       name: bow_0_19
       rect:
         serializedVersion: 2
-        x: 70
-        y: 0
-        width: 70
-        height: 90
+        x: 270
+        y: 79
+        width: 90
+        height: 44
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2d7339bea4ae3749ae3f4da31f12c51
+      spriteID: 8262d1de6b573684aa1098ffb8262d31
       internalID: -2122456583
       vertices: []
       indices: 
@@ -564,18 +564,18 @@ TextureImporter:
       name: bow_0_20
       rect:
         serializedVersion: 2
-        x: 140
-        y: 0
-        width: 70
-        height: 90
+        x: 270
+        y: 11
+        width: 90
+        height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb831e586d5b26c4fa0aa5299b1e7457
+      spriteID: 0336be76b21d7c64abdb574540a02433
       internalID: -1668584928
       vertices: []
       indices: 
@@ -585,18 +585,18 @@ TextureImporter:
       name: bow_0_21
       rect:
         serializedVersion: 2
-        x: 210
-        y: 0
-        width: 70
-        height: 90
+        x: 180
+        y: 24
+        width: 90
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9cbb94bfab84a2418ea85662a2cdd69
+      spriteID: cc9b2a1519978d443b6ff04de7da222d
       internalID: 1657925087
       vertices: []
       indices: 
@@ -606,18 +606,18 @@ TextureImporter:
       name: bow_0_22
       rect:
         serializedVersion: 2
-        x: 280
-        y: 0
-        width: 70
-        height: 90
+        x: 90
+        y: 8
+        width: 90
+        height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0671286e5bb06274cafed3940ffa8057
+      spriteID: e566eca97e541e549a4884ee21a99a48
       internalID: -1747827159
       vertices: []
       indices: 
@@ -627,18 +627,18 @@ TextureImporter:
       name: bow_0_23
       rect:
         serializedVersion: 2
-        x: 350
-        y: 0
-        width: 70
-        height: 90
+        x: 0
+        y: 24
+        width: 90
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dab33956d8326a546a43cf7298f84b96
+      spriteID: 5c44d8f7877deed4484938bb6a780fdd
       internalID: -2030491229
       vertices: []
       indices: 

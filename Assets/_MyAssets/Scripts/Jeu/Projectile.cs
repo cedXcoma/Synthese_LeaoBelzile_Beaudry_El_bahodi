@@ -2,17 +2,51 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Graine : MonoBehaviour
+public class Projectile : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private float _speed = 20f;
+    [SerializeField] private string _nom = default;
+    [SerializeField] private GameObject _miniExplosionPrefab = default;
 
-    // Update is called once per frame
+    private GestionUI _uiManager;
+    private float _vitesseProjectileEnnemi;
+
+    private void Awake()
+    {
+        _uiManager = FindObjectOfType<GestionUI>();
+    }
     void Update()
     {
-        
+            // Déplace le laser vers le haut
+            DeplacementLaserJoueur();
+    }
+
+    private void DeplacementLaserJoueur()
+    {
+        transform.Translate(Vector3.up * Time.deltaTime * _speed);
+        if (transform.position.y > 8f)
+        {
+            // Si le laser sort de l'écran il se détruit
+            if (this.transform.parent == null)
+            {
+                Destroy(this.gameObject);
+            }
+            // Si le laser fait partie d'un conteneur il détruit le conteneur
+            else
+            {
+                Destroy(this.transform.parent.gameObject);
+            }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player" && _nom != "Player")
+        {
+            Player player = other.GetComponent<Player>();
+            player.Degats();
+            Instantiate(_miniExplosionPrefab, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 }

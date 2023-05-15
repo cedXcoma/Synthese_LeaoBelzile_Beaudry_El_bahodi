@@ -1,20 +1,15 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
 
     [SerializeField] private float _speed = 15f;
-    [SerializeField] private GameObject _laserPrefab = default;
-    [SerializeField] private GameObject _tripleLaserPrefab = default;
+    [SerializeField] private GameObject _flechePrefab = default;
     [SerializeField] private float _delai = 0.5f;
     [SerializeField] private int _viesJoueur = 3;
-    [SerializeField] private bool _isTripleLaserActif = false;
-    [SerializeField] private AudioClip _laserSound = default;
     [SerializeField] private AudioClip _endSound = default;
-    [SerializeField] private GameObject _playerHurt1 = default;
-    [SerializeField] private GameObject _playerHurt2 = default;
     [SerializeField] private GameObject _bigExplosionPrefab = default;
 
     private GestionSpawn _spawnManager;
@@ -27,9 +22,8 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        _spawnManager = GameObject.Find("SpawnManager").GetComponent<GestionSpawn>();
+        _spawnManager = GameObject.Find("GestionSpawn").GetComponent<GestionSpawn>();
         _uiManager = FindObjectOfType<GestionUI>().GetComponent<GestionUI>();
-        _shield = transform.GetChild(0).gameObject;
         _anim = GetComponent<Animator>();
     }
 
@@ -52,15 +46,9 @@ public class Player : MonoBehaviour
         {
             _canFire = Time.time + _delai;
             // Si le booléen du triplelaser est actif on instancie des triple laser à la place
-            AudioSource.PlayClipAtPoint(_laserSound, Camera.main.transform.position, 0.3f);
-            if (_isTripleLaserActif)
-            {
-                Instantiate(_tripleLaserPrefab, (transform.position + new Vector3(0f, 2.19f, 0f)), Quaternion.identity);
-            }
-            else
-            {
-                Instantiate(_laserPrefab, (transform.position + new Vector3(0f, 0.9f, 0f)), Quaternion.identity);
-            }
+            //Ne pas oublier de remettre le son
+            
+           Instantiate(_flechePrefab, (transform.position + new Vector3(0f, 0.9f, 0f)), Quaternion.identity);          
         }
     }
 
@@ -71,22 +59,7 @@ public class Player : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
         Vector3 direction = new Vector3(horizontalInput, verticalInput, 0f);
         transform.Translate(direction * Time.deltaTime * _speed);
-
-        if (horizontalInput < 0)
-        {
-            _anim.SetBool("Turn_Left", true);
-            _anim.SetBool("Turn_Right", false);
-        }
-        else if (horizontalInput > 0)
-        {
-            _anim.SetBool("Turn_Left", false);
-            _anim.SetBool("Turn_Right", true);
-        }
-        else
-        {
-            _anim.SetBool("Turn_Left", false);
-            _anim.SetBool("Turn_Right", false);
-        }
+      
         //Gérer la zone verticale
         transform.position = new Vector3(transform.position.x,
         Mathf.Clamp(transform.position.y, -3.07f, 2.3f), 0f);
@@ -107,24 +80,10 @@ public class Player : MonoBehaviour
     // Méthode appellé quand le joueur subit du dégat
     public void Degats()
     {
-        // Si le shield est actif on le déastive sinon on enlève une vie au joueur
-        if (!_shield.activeSelf)
-        {
-            _viesJoueur--;
-            if (_viesJoueur == 2)
-            {
-                _playerHurt1.SetActive(true);
-            }
-            else if (_viesJoueur == 1)
-            {
-                _playerHurt2.SetActive(true);
-            }
-        }
-        else
-        {
-            _shield.SetActive(false);
-        }
-
+        // Si le shield est actif on le désactive sinon on enlève une vie au joueur
+        
+            _viesJoueur--;         
+         
         // Si le joueur n'a plus de vie on arrête le spwan et détruit le joueur
         if (_viesJoueur < 1)
         {
@@ -135,19 +94,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    // Méthode et coroutine lié à l'amélioration triple shot de mon joueur
-    public void PowerTripleShot()
-    {
-        _isTripleLaserActif = true;
-        StartCoroutine(TripleShotRoutine());
-    }
-
-    IEnumerator TripleShotRoutine()
-    {
-        yield return new WaitForSeconds(5f);
-        _isTripleLaserActif = false;
-    }
-
+    
     // Méthode et coroutine lié à l'augmentation de la vitesse du joueur
     public void SpeedPowerUp()
     {
