@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public class Graine : MonoBehaviour
 {
-    [SerializeField] private float _speed = 25f;
+    [SerializeField] private float _speed = 10f;
     [SerializeField] private string _nom = default;
     [SerializeField] private GameObject _miniExplosionPrefab = default;
 
@@ -17,14 +17,14 @@ public class Projectile : MonoBehaviour
     }
     void Update()
     {
-            // Déplace le laser vers le haut
-            DeplacementLaserJoueur();
+        // Déplace le laser vers le haut
+        DeplacementGraine();
     }
 
-    private void DeplacementLaserJoueur()
+    private void DeplacementGraine()
     {
-        transform.Translate(Vector3.up * Time.deltaTime * _speed);
-        if (transform.position.y > 8f)
+        transform.Translate(Vector3.down * Time.deltaTime * _speed);
+        if (transform.position.y < -6f)
         {
             // Si le laser sort de l'écran il se détruit
             if (this.transform.parent == null)
@@ -40,4 +40,14 @@ public class Projectile : MonoBehaviour
     }
 
    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player" && _nom != "Player")
+        {
+            Player player = other.GetComponent<Player>();
+            player.Degats();
+            Instantiate(_miniExplosionPrefab, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+    }
 }

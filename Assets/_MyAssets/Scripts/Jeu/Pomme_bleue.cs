@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pomme_bleue : MonoBehaviour
 {
-    [SerializeField] private int _points = 100;
+    [SerializeField] private int _points = 50;
     [SerializeField] private GameObject _enemyLaserPrefab = default;
     [SerializeField] private GameObject _explosionPrefab = default;
 

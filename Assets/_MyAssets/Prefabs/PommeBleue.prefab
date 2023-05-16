@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -9205295900856823085}
   - component: {fileID: 8075458602447167280}
   m_Layer: 0
-  m_Name: R_3
+  m_Name: PommeBleue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,6 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a3c5175cb6d0e448ba53711d1575b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _points: 200
-  _enemyLaserPrefab: {fileID: 0}
+  _points: 75
+  _enemyLaserPrefab: {fileID: 2839391646516563257, guid: ce95b826a9ef6c247844b2f55f3a57c2, type: 3}
   _explosionPrefab: {fileID: 3188567036957634597, guid: 5151919f329a4c1449d8be3f7e78bfa0, type: 3}

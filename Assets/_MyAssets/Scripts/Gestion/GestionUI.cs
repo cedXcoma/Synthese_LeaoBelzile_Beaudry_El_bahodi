@@ -10,9 +10,9 @@ public class GestionUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _txtScore = default;
     [SerializeField] private GameObject _pausePanel = default;
 
-    [SerializeField] private float _vitesseEnnemi = 9.0f;
+    [SerializeField] private float _vitesseEnnemi = 6.0f;
     [SerializeField] private float _vitessePommeBleue = 2.0f;
-    [SerializeField] private float _augVitesseParNiveau = 2.0f;
+    [SerializeField] private float _augVitesseParNiveau = 1.5f;
     [SerializeField] private int _pointageAugmentation = 500;
 
     private int _score = 0;

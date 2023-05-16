@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Pomme : MonoBehaviour
 {
-    [SerializeField] private int _points = 100;
-    [SerializeField] private GameObject _enemyLaserPrefab = default;
+    [SerializeField] private int _points = 25;
     [SerializeField] private GameObject _explosionPrefab = default;
 
     private GestionUI _uiManager;
@@ -19,28 +18,11 @@ public class Pomme : MonoBehaviour
     }
 
     void Update()
-    {
-        //Déplace l'ennemi vers le bas et s'il sort de l'écran le replace en
-        //haut de la scène à une position aléatoire en X
+    { 
         DeplacementEnnemi();
-
-        //Méthode qui gère le tir de laser par les ennemis
-        TirEnnemi();
-
     }
 
-    private void TirEnnemi()
-    {
-        if (_uiManager.getScore() > 500)
-        {
-            if (Time.time > _canFire)
-            {
-                _fireRate = Random.Range(1f, 3f);
-                _canFire = Time.time + _fireRate;
-                Instantiate(_enemyLaserPrefab, transform.position + new Vector3(0f, -0.9f, 0f), Quaternion.identity);
-            }
-        }
-    }
+  
 
     private void DeplacementEnnemi()
     {
