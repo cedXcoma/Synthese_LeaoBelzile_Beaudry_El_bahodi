@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
-    [SerializeField] private float _speed = 15f;
+    [SerializeField] private float _speed = 12f;
     [SerializeField] private GameObject _flechePrefab = default;
     [SerializeField] private float _delai = 0.5f;
     [SerializeField] private int _viesJoueur = 3;
@@ -109,8 +109,5 @@ public class Player : MonoBehaviour
     }
 
     // Méthode lié à l'activation du shield
-    public void ShieldPowerUp()
-    {
-        _shield.SetActive(true);
-    }
+    
 }

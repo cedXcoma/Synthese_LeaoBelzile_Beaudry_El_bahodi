@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pomme : MonoBehaviour
 {
-    [SerializeField] private int _points = 25;
+    [SerializeField] public int _points = 25;
     [SerializeField] private GameObject _explosionPrefab = default;
 
     private GestionUI _uiManager;
@@ -18,16 +18,16 @@ public class Pomme : MonoBehaviour
     }
 
     void Update()
-    { 
+    {
         DeplacementEnnemi();
     }
 
-  
+
 
     private void DeplacementEnnemi()
     {
         transform.Translate(Vector3.down * Time.deltaTime * _uiManager.getVitesseEnnemi());
-        
+
         if (transform.position.y < -5f)
         {
             float randomX = Random.Range(-8.17f, 8.17f);
@@ -58,4 +58,7 @@ public class Pomme : MonoBehaviour
             _uiManager.AjouterScore(_points);
         }
     }
+
+
+
 }
