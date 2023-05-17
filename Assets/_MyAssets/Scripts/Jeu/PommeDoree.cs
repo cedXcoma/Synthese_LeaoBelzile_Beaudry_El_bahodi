@@ -5,6 +5,7 @@ using UnityEngine;
 public class PommeDoree : MonoBehaviour
 {
     [SerializeField] private float _speed = 3.0f;
+    [SerializeField] ParticleSystem doree = default;
     //[SerializeField] private AudioClip _powerUpSound = default;
 
 
@@ -25,9 +26,12 @@ public class PommeDoree : MonoBehaviour
         {
             Player player = other.GetComponent<Player>();
             Destroy(this.gameObject);
-           // AudioSource.PlayClipAtPoint(_powerUpSound, Camera.main.transform.position, 0.6f);                     
+            Instantiate(doree, transform.position, Quaternion.identity);
+            // AudioSource.PlayClipAtPoint(_powerUpSound, Camera.main.transform.position, 0.6f);                     
             player.SpeedPowerUp();              
             
         }
     }
+
+
 }
