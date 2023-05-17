@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class Player : MonoBehaviour
     private GestionUI _uiManager;
     private GameObject _shield;
     private Animator _anim;
+    public Slider _slider;
 
     private float _vitesseInitiale;
     private float _canFire = -1;
@@ -82,7 +84,8 @@ public class Player : MonoBehaviour
     {
         // Si le shield est actif on le désactive sinon on enlève une vie au joueur
         
-            _viesJoueur--;         
+            _viesJoueur--;
+            _slider.value = _viesJoueur;
          
         // Si le joueur n'a plus de vie on arrête le spwan et détruit le joueur
         if (_viesJoueur < 1)
