@@ -6252,6 +6252,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 345693499394230981, guid: c36f3c2393596e144bd459c46d9d6e25, type: 3}
+      propertyPath: _slider
+      value: 
+      objectReference: {fileID: 1245823276}
+    - target: {fileID: 345693499394230981, guid: c36f3c2393596e144bd459c46d9d6e25, type: 3}
       propertyPath: _flechePrefab
       value: 
       objectReference: {fileID: 7502192267861781892, guid: 0706c8096c88d234b8517e99d06dcefd, type: 3}
