@@ -6,6 +6,7 @@ public class PommeVerte : MonoBehaviour
 {
     [SerializeField] private float _speed = 4.0f;
     private GameObject[] aliveEnemies;
+    [SerializeField] ParticleSystem verte = default;
     [SerializeField] private GameObject _explosionPrefab = default;
     //[SerializeField] private AudioClip _powerUpSound = default;
 
@@ -26,6 +27,7 @@ public class PommeVerte : MonoBehaviour
         if (other.tag == "Player")
         {    
             Destroy(this.gameObject);
+            Instantiate(verte, transform.position, Quaternion.identity);
             DestroyAllEnemies();
         }
     }
