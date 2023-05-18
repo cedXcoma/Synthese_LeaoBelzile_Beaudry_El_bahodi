@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class GestionMusique : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private AudioSource _audioSource;
+
+    private void Start()
     {
-        
+        _audioSource = FindObjectOfType<Musique>().GetComponent<AudioSource>();
+        if (PlayerPrefs.GetInt("Muted") == 0)
+        {
+            _audioSource.Stop();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void MusiqueOnOff()
     {
-        
+        if (PlayerPrefs.GetInt("Muted", 0) == 0)
+        {
+            _audioSource.Play();
+            PlayerPrefs.SetInt("Muted", 1);
+            PlayerPrefs.Save();
+        }
+        else
+        {
+            _audioSource.Pause();
+            PlayerPrefs.SetInt("Muted", 0);
+            PlayerPrefs.Save();
+        }
     }
 }

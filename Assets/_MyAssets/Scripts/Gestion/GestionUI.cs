@@ -14,11 +14,15 @@ public class GestionUI : MonoBehaviour
     [SerializeField] private float _vitessePommeBleue = 2.0f;
     [SerializeField] private float _augVitesseParNiveau = 1.5f;
     [SerializeField] private int _pointageAugmentation = 500;
+    [SerializeField] private int _viesJoueur = 4;
+    [SerializeField] private GameObject _bigExplosionPrefab = default;
+    
 
     private int _score = 0;
     private bool _estChanger = false;
     private bool _pauseOn = false;
-
+    
+    private GestionSpawn _spawnManager;
     private void Start()
     {
         _score = 0;
@@ -58,7 +62,7 @@ public class GestionUI : MonoBehaviour
     // Méthode qui change le pointage sur le UI
     private void UpdateScore()
     {
-        _txtScore.text = "Score : " + _score.ToString();
+        _txtScore.text =  _score.ToString() + " pts ";
     }
 
     private void AugmentVitesseEnnemi()
@@ -79,12 +83,9 @@ public class GestionUI : MonoBehaviour
         UpdateScore();
     }
 
+   
 
-    IEnumerator FinPartie()
-    {
-        yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(2);
-    }
+   
 
     // Méthode qui relance la partie après une pause
     public void ResumeGame()
@@ -107,4 +108,36 @@ public class GestionUI : MonoBehaviour
     {
         return _vitessePommeBleue;
     }
+    //public void Degats()
+    //{
+    //    // Si le shield est actif on le désactive sinon on enlève une vie au joueur
+
+    //    _viesJoueur--;
+
+
+    //    // Si le joueur n'a plus de vie on arrête le spwan et détruit le joueur
+    //    if (_viesJoueur < 1)
+    //    {
+    //        _spawnManager.mortJoueur();
+    //        Instantiate(_bigExplosionPrefab, transform.position, Quaternion.identity);
+    //        Destroy(this.gameObject);
+    //        PlayerPrefs.SetInt("Score", _score);
+    //        PlayerPrefs.Save();
+    //        StartCoroutine("FinPartie");
+    //    }
+    //}
+    //IEnumerator FinPartie()
+    //{
+    //    yield return new WaitForSeconds(2f);
+    //    SceneManager.LoadScene(2);
+    //}
+    
+
+    // Méthode pour récupérer la valeur de _score
+    
+
+
+
+
+
 }

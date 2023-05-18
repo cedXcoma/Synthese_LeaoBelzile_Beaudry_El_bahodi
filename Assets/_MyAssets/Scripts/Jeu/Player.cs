@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
+using System.Reflection;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Player : MonoBehaviour
@@ -9,7 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float _speed = 12f;
     [SerializeField] private GameObject _flechePrefab = default;
     [SerializeField] private float _delai = 0.5f;
-    [SerializeField] private int _viesJoueur = 3;
+    [SerializeField] private int _viesJoueur = 4;
     [SerializeField] private AudioClip _endSound = default;
     [SerializeField] private GameObject _bigExplosionPrefab = default;
 
@@ -27,6 +29,7 @@ public class Player : MonoBehaviour
         _spawnManager = GameObject.Find("GestionSpawn").GetComponent<GestionSpawn>();
         _uiManager = FindObjectOfType<GestionUI>().GetComponent<GestionUI>();
         _anim = GetComponent<Animator>();
+        
     }
 
     void Start()
@@ -90,13 +93,22 @@ public class Player : MonoBehaviour
         // Si le joueur n'a plus de vie on arrête le spwan et détruit le joueur
         if (_viesJoueur < 1)
         {
+            int scoreJoueur = _uiManager.getScore();
             _spawnManager.mortJoueur();
             Instantiate(_bigExplosionPrefab, transform.position, Quaternion.identity);         
             Destroy(this.gameObject);
-        }
-    }
+            PlayerPrefs.SetInt("Score", scoreJoueur);
+            PlayerPrefs.Save();
 
-    
+            SceneManager.LoadScene(2);
+
+
+        }
+        
+    }
+   
+
+
     // Méthode et coroutine lié à l'augmentation de la vitesse du joueur
     public void SpeedPowerUp()
     {
