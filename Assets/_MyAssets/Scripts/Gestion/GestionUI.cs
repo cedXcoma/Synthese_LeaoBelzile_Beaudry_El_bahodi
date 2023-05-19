@@ -16,8 +16,8 @@ public class GestionUI : MonoBehaviour
     [SerializeField] private int _pointageAugmentation = 500;
     [SerializeField] private int _viesJoueur = 4;
     [SerializeField] private GameObject _bigExplosionPrefab = default;
-    
 
+    private AudioSource _audioSource;
     private int _score = 0;
     private bool _estChanger = false;
     private bool _pauseOn = false;
@@ -113,32 +113,7 @@ public class GestionUI : MonoBehaviour
     {
         Application.Quit();
     }
-    //public void Degats()
-    //{
-    //    // Si le shield est actif on le désactive sinon on enlève une vie au joueur
-
-    //    _viesJoueur--;
-
-
-    //    // Si le joueur n'a plus de vie on arrête le spwan et détruit le joueur
-    //    if (_viesJoueur < 1)
-    //    {
-    //        _spawnManager.mortJoueur();
-    //        Instantiate(_bigExplosionPrefab, transform.position, Quaternion.identity);
-    //        Destroy(this.gameObject);
-    //        PlayerPrefs.SetInt("Score", _score);
-    //        PlayerPrefs.Save();
-    //        StartCoroutine("FinPartie");
-    //    }
-    //}
-    //IEnumerator FinPartie()
-    //{
-    //    yield return new WaitForSeconds(2f);
-    //    SceneManager.LoadScene(2);
-    //}
-
-
-    // Méthode pour récupérer la valeur de _score
+    
 
 
 

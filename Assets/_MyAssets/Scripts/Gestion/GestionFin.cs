@@ -11,13 +11,14 @@ public class GestionFin : MonoBehaviour
     [SerializeField] private GameObject _txtSaisie = default;
 
     private int _score;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         _score = PlayerPrefs.GetInt("Score");
         _txtScore.text = "Votre Score : " + _score.ToString() + " pts";
-
+        
         GameOverSequence();
     }
 

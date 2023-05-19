@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject _flechePrefab = default;
     [SerializeField] private float _delai = 0.5f;
     [SerializeField] private int _viesJoueur = 4;
-    [SerializeField] private AudioClip _endSound = default;
+    
     [SerializeField] private GameObject _bigExplosionPrefab = default;
 
     private GestionSpawn _spawnManager;
@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
 
     private float _vitesseInitiale;
     private float _canFire = -1;
-
+    
     private void Awake()
     {
         _spawnManager = GameObject.Find("GestionSpawn").GetComponent<GestionSpawn>();
@@ -99,7 +99,7 @@ public class Player : MonoBehaviour
             Destroy(this.gameObject);
             PlayerPrefs.SetInt("Score", scoreJoueur);
             PlayerPrefs.Save();
-
+            
             SceneManager.LoadScene(2);
 
 
