@@ -16,23 +16,32 @@ public class GestionUI : MonoBehaviour
     [SerializeField] private int _pointageAugmentation = 500;
     [SerializeField] private int _viesJoueur = 4;
     [SerializeField] private GameObject _bigExplosionPrefab = default;
+    [SerializeField] private TMP_Text _txtTemps = default;
 
     private AudioSource _audioSource;
     private int _score = 0;
     private bool _estChanger = false;
     private bool _pauseOn = false;
-    
+    private float _tempsDepart = 0;
     private GestionSpawn _spawnManager;
+    float temps;
     private void Start()
     {
         _score = 0;
         _pauseOn = false;
         Time.timeScale = 1;
         UpdateScore();
+        _tempsDepart = 0;
     }
 
     private void Update()
     {
+
+        
+        
+        temps = Time.time;
+
+        _txtTemps.text = "Temps : " + temps.ToString("f2");
 
         // Permet la gestion du panneau de pause (marche/arrêt)
         if ((Input.GetKeyDown(KeyCode.Escape) && !_pauseOn))
@@ -98,6 +107,7 @@ public class GestionUI : MonoBehaviour
 
     public void ChargerDepart()
     {
+        temps = temps-Time.time;
         SceneManager.LoadScene(0);
     }
 

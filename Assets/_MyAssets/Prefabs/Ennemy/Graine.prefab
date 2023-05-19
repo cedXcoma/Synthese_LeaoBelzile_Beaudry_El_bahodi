@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 10
   _nom: Enemy
+  _GraineSound: {fileID: 8300000, guid: e45054ea887e67b47982c4f7bd9ccdd6, type: 3}
   _miniExplosionPrefab: {fileID: 3188567036957634597, guid: 5151919f329a4c1449d8be3f7e78bfa0, type: 3}
 --- !u!61 &141852877614477180
 BoxCollider2D:

@@ -148,4 +148,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 3
   verte: {fileID: 7301390805964308181, guid: 69680196178445b4e8edd6114e112e8b, type: 3}
-  _explosionPrefab: {fileID: 3188567036957634597, guid: 5151919f329a4c1449d8be3f7e78bfa0, type: 3}
+  _pomSound: {fileID: 8300000, guid: e45054ea887e67b47982c4f7bd9ccdd6, type: 3}
+  _PUSound: {fileID: 8300000, guid: a54d08e87becced48941edd6347c48d9, type: 3}
+  _explosionPrefab: {fileID: 8502623296466458209, guid: 8b9b7f103b439e94f8906a212c3cce47, type: 3}

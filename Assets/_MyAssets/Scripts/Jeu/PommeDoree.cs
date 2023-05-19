@@ -6,6 +6,8 @@ public class PommeDoree : MonoBehaviour
 {
     [SerializeField] private float _speed = 3.0f;
     [SerializeField] ParticleSystem doree = default;
+    [SerializeField] private AudioClip _PUSound = default;
+    [SerializeField] private GameObject _explosionPrefab = default;
     //[SerializeField] private AudioClip _powerUpSound = default;
 
 
@@ -26,7 +28,9 @@ public class PommeDoree : MonoBehaviour
         {
             Player player = other.GetComponent<Player>();
             Destroy(this.gameObject);
+            AudioSource.PlayClipAtPoint(_PUSound, Camera.main.transform.position, 0.3f);
             Instantiate(doree, transform.position, Quaternion.identity);
+            Instantiate(_explosionPrefab,transform.position, Quaternion.identity);
             // AudioSource.PlayClipAtPoint(_powerUpSound, Camera.main.transform.position, 0.6f);                     
             player.SpeedPowerUp();              
             

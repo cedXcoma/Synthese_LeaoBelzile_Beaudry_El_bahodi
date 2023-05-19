@@ -147,5 +147,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _points: 75
+  _pomSound: {fileID: 8300000, guid: e45054ea887e67b47982c4f7bd9ccdd6, type: 3}
   _enemyLaserPrefab: {fileID: 2839391646516563257, guid: ce95b826a9ef6c247844b2f55f3a57c2, type: 3}
   _explosionPrefab: {fileID: 3188567036957634597, guid: 5151919f329a4c1449d8be3f7e78bfa0, type: 3}

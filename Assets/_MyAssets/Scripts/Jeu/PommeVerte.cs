@@ -7,6 +7,8 @@ public class PommeVerte : MonoBehaviour
     [SerializeField] private float _speed = 4.0f;
     private GameObject[] aliveEnemies;
     [SerializeField] ParticleSystem verte = default;
+    [SerializeField] private AudioClip _pomSound = default;
+    [SerializeField] private AudioClip _PUSound = default;
     [SerializeField] private GameObject _explosionPrefab = default;
     //[SerializeField] private AudioClip _powerUpSound = default;
 
@@ -28,6 +30,7 @@ public class PommeVerte : MonoBehaviour
         {    
             Destroy(this.gameObject);
             Instantiate(verte, transform.position, Quaternion.identity);
+            AudioSource.PlayClipAtPoint(_PUSound, Camera.main.transform.position, 0.3f);
             DestroyAllEnemies();
         }
     }
@@ -41,6 +44,7 @@ public class PommeVerte : MonoBehaviour
         {
             
             Destroy(aliveEnemies[i]);
+            AudioSource.PlayClipAtPoint(_pomSound, Camera.main.transform.position, 0.3f);
             Instantiate(_explosionPrefab, aliveEnemies[i].transform.position,Quaternion.identity);          
         }
     }

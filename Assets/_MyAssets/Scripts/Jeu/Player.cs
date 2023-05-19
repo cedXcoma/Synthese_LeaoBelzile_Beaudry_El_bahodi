@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float _speed = 12f;
     [SerializeField] private GameObject _flechePrefab = default;
     [SerializeField] private float _delai = 0.5f;
+    [SerializeField] private AudioClip _arcSound = default;
     [SerializeField] private int _viesJoueur = 4;
     
     [SerializeField] private GameObject _bigExplosionPrefab = default;
@@ -51,9 +52,9 @@ public class Player : MonoBehaviour
         {
             _canFire = Time.time + _delai;
             // Si le booléen du triplelaser est actif on instancie des triple laser à la place
-            //Ne pas oublier de remettre le son
-            
-           Instantiate(_flechePrefab, (transform.position + new Vector3(0f, 0.9f, 0f)), Quaternion.identity);          
+
+            AudioSource.PlayClipAtPoint(_arcSound, Camera.main.transform.position, 0.3f);
+            Instantiate(_flechePrefab, (transform.position + new Vector3(0f, 0.9f, 0f)), Quaternion.identity);          
         }
     }
 

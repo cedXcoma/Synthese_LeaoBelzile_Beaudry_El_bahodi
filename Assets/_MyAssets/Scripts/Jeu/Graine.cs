@@ -6,6 +6,7 @@ public class Graine : MonoBehaviour
 {
     [SerializeField] private float _speed = 10f;
     [SerializeField] private string _nom = default;
+    [SerializeField] private AudioClip _GraineSound = default;
     [SerializeField] private GameObject _miniExplosionPrefab = default;
 
     private GestionUI _uiManager;
@@ -46,6 +47,7 @@ public class Graine : MonoBehaviour
         {
             Player player = other.GetComponent<Player>();
             player.Degats();
+            AudioSource.PlayClipAtPoint(_GraineSound, Camera.main.transform.position, 0.3f);
             Instantiate(_miniExplosionPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
