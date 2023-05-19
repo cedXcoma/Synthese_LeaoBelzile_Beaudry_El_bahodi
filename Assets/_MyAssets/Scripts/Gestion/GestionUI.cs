@@ -94,6 +94,7 @@ public class GestionUI : MonoBehaviour
         Time.timeScale = 1;
         _pauseOn = false;
     }
+    
 
     public void ChargerDepart()
     {
@@ -107,6 +108,10 @@ public class GestionUI : MonoBehaviour
     public float getVitessePommeBleue()
     {
         return _vitessePommeBleue;
+    }
+    public void Quitter()
+    {
+        Application.Quit();
     }
     //public void Degats()
     //{
@@ -131,10 +136,10 @@ public class GestionUI : MonoBehaviour
     //    yield return new WaitForSeconds(2f);
     //    SceneManager.LoadScene(2);
     //}
-    
+
 
     // Méthode pour récupérer la valeur de _score
-    
+
 
 
 

@@ -1,0 +1,1325 @@
+fileFormatVersion: 2
+guid: ffb492ac08f83aa41bc0e050c782dfd8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 2
+    wrapV: 2
+    wrapW: 2
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GirlSprite 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351fe360da8044e4690fcb57acf07bf5
+      internalID: -332248258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8156d4aa94e604380502fd588183d3
+      internalID: -2075119996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_2
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2346f46c56e698646a1abf7c71229f2a
+      internalID: -1651627562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_3
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5c692522ab240479098cc43c6caaa2
+      internalID: 556312391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_4
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be582f5cd47da2f45a35a01aba686ee4
+      internalID: -629217352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_5
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd594a48f597e7f41b3d984d300fb2ba
+      internalID: -1885158582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_6
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b4ce246f935584fb3a794e93db45fc
+      internalID: -927605391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_7
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf38fc7b8653bc342abe624c87d277c5
+      internalID: -1549231354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_8
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0d39b4f178e264eb22ba6213ac50a6
+      internalID: 1464676533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_9
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62caff0a1b2c34943bdd43a91212afa7
+      internalID: 849943617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_10
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eba5f6aca6b9914981135ad297a9e2a
+      internalID: -1594064263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_11
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4254f5be3bb6c90498614a0aa8457f2d
+      internalID: 184670464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_12
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84aac5d98eecb6946a6d09f25183af29
+      internalID: -1819280197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_13
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5de6ac60229a4f40bdd6d15dc5f0cfd
+      internalID: 55695722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_14
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ac1cb343940b54291c38f9105082c7
+      internalID: -708535746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_15
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353ea47c94d6da3428676e737d3d72d4
+      internalID: 516245443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_16
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9154c520a5d527d4d88f7b54cacbcdd3
+      internalID: 1893073450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_17
+      rect:
+        serializedVersion: 2
+        x: 4114
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab36402160b419140b4e57840da76afb
+      internalID: -1556173932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_18
+      rect:
+        serializedVersion: 2
+        x: 4356
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6421cadadba420547826be7366a140a8
+      internalID: -500466122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_19
+      rect:
+        serializedVersion: 2
+        x: 4598
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf25204bdf197d94b845507fd07a5e52
+      internalID: -689345392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_20
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fceb56eb90f3847870feeb6d9a24f4
+      internalID: 869519246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_21
+      rect:
+        serializedVersion: 2
+        x: 5082
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df51b0a16c6221145bcb408996d228a0
+      internalID: 1592518279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_22
+      rect:
+        serializedVersion: 2
+        x: 5324
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f357b2491db8739499bf3ec760ee863b
+      internalID: 2041756289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_23
+      rect:
+        serializedVersion: 2
+        x: 5566
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cb6e5f9988a2c48bde895ad0e245f0
+      internalID: 1853046721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_24
+      rect:
+        serializedVersion: 2
+        x: 5808
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e560d32ccc6f74695d8c84dabde879
+      internalID: 1358673045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_25
+      rect:
+        serializedVersion: 2
+        x: 6050
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d0119b09e050840b1bdc454e4677c3
+      internalID: -363512998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_26
+      rect:
+        serializedVersion: 2
+        x: 6292
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f95aef384181040addee4de964bbf6
+      internalID: -294274655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_27
+      rect:
+        serializedVersion: 2
+        x: 6534
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff5f11e2b8901f42ac4c7efb085b1cb
+      internalID: 1697068804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_28
+      rect:
+        serializedVersion: 2
+        x: 6776
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5239a55497ea3f2489d5129be3b1f6d6
+      internalID: 2114841886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_29
+      rect:
+        serializedVersion: 2
+        x: 7018
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca791b87d16a1e841803a8d38f0d63d7
+      internalID: -933767996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_30
+      rect:
+        serializedVersion: 2
+        x: 7260
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1da13cba9436c4eb31b53686d72c2a
+      internalID: 581664453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_31
+      rect:
+        serializedVersion: 2
+        x: 7502
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb0c16ad8f68e143aa8edec46ba9e65
+      internalID: -672545186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_32
+      rect:
+        serializedVersion: 2
+        x: 7744
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f332c3f58d9984d888633dc86e699b
+      internalID: 459431955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_33
+      rect:
+        serializedVersion: 2
+        x: 7986
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287c3debca7c0c7489afa4da0d2bed51
+      internalID: 921446462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_34
+      rect:
+        serializedVersion: 2
+        x: 8228
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5c6b0f363daa242bcb5f9301010220
+      internalID: -712425315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_35
+      rect:
+        serializedVersion: 2
+        x: 8470
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9906ca35599ef488ce5eb85f2deee1
+      internalID: -492757573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_36
+      rect:
+        serializedVersion: 2
+        x: 8712
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e547cf4fcda3d4646aa6710644e2dd8c
+      internalID: 953018656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_37
+      rect:
+        serializedVersion: 2
+        x: 8954
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97657eb59532f9f41a0e876519e9094b
+      internalID: -1872625768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_38
+      rect:
+        serializedVersion: 2
+        x: 9196
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00ff187fbaa69046b559910ae229d7b
+      internalID: 1403940312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_39
+      rect:
+        serializedVersion: 2
+        x: 9438
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d47451f07b4fe45bf6a44c87b01644
+      internalID: -1113666233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_40
+      rect:
+        serializedVersion: 2
+        x: 9680
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36452a79d9a213d4fb567430232f4cd6
+      internalID: -1184022597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_41
+      rect:
+        serializedVersion: 2
+        x: 9922
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bc14ed759c081479d078f68e3df560
+      internalID: -1731702360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_42
+      rect:
+        serializedVersion: 2
+        x: 10164
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d16984673be85c4c8015ade8388a9d0
+      internalID: -283033098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_43
+      rect:
+        serializedVersion: 2
+        x: 10406
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c99c52be66d8914eaeb5b4f3ce7fbd6
+      internalID: 512222172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_44
+      rect:
+        serializedVersion: 2
+        x: 10648
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24635cb1c67669b45a745656620c3e19
+      internalID: 705151737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_45
+      rect:
+        serializedVersion: 2
+        x: 10890
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d207f08ffd439304a82d6601449fb565
+      internalID: -911734848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_46
+      rect:
+        serializedVersion: 2
+        x: 11132
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fe9d0e648875a4aa5656f8b622a402
+      internalID: 602076154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_47
+      rect:
+        serializedVersion: 2
+        x: 11374
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933cd5b1e9862a4468c46bb9674e21c3
+      internalID: 433802899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_48
+      rect:
+        serializedVersion: 2
+        x: 11616
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ccd97bcc2857f488209934e4da784e
+      internalID: 1602792997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_49
+      rect:
+        serializedVersion: 2
+        x: 11858
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c14ad34fc5f03f4382c7b92823d299e
+      internalID: -1739499938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_50
+      rect:
+        serializedVersion: 2
+        x: 12100
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d31765e02fd0f544855350ec9cbb0e3
+      internalID: -188005767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_51
+      rect:
+        serializedVersion: 2
+        x: 12342
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa8044a9c9c60748946a783e3340614
+      internalID: -31857374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GirlSprite 1_52
+      rect:
+        serializedVersion: 2
+        x: 12584
+        y: 0
+        width: 242.24529
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c8709ebdce50049acdaf4532f2a0e6
+      internalID: 694464708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GirlSprite 1_13: 55695722
+      GirlSprite 1_19: -689345392
+      GirlSprite 1_25: -363512998
+      GirlSprite 1_40: -1184022597
+      GirlSprite 1_34: -712425315
+      GirlSprite 1_15: 516245443
+      GirlSprite 1_37: -1872625768
+      GirlSprite 1_48: 1602792997
+      GirlSprite 1_3: 556312391
+      GirlSprite 1_35: -492757573
+      GirlSprite 1_41: -1731702360
+      GirlSprite 1_26: -294274655
+      GirlSprite 1_17: -1556173932
+      GirlSprite 1_9: 849943617
+      GirlSprite 1_29: -933767996
+      GirlSprite 1_18: -500466122
+      GirlSprite 1_2: -1651627562
+      GirlSprite 1_51: -31857374
+      GirlSprite 1_38: 1403940312
+      GirlSprite 1_31: -672545186
+      GirlSprite 1_33: 921446462
+      GirlSprite 1_0: -332248258
+      GirlSprite 1_16: 1893073450
+      GirlSprite 1_43: 512222172
+      GirlSprite 1_52: 694464708
+      GirlSprite 1_1: -2075119996
+      GirlSprite 1_5: -1885158582
+      GirlSprite 1_36: 953018656
+      GirlSprite 1_42: -283033098
+      GirlSprite 1_23: 1853046721
+      GirlSprite 1_4: -629217352
+      GirlSprite 1_50: -188005767
+      GirlSprite 1_12: -1819280197
+      GirlSprite 1_22: 2041756289
+      GirlSprite 1_39: -1113666233
+      GirlSprite 1_45: -911734848
+      GirlSprite 1_47: 433802899
+      GirlSprite 1_46: 602076154
+      GirlSprite 1_7: -1549231354
+      GirlSprite 1_14: -708535746
+      GirlSprite 1_10: -1594064263
+      GirlSprite 1_30: 581664453
+      GirlSprite 1_11: 184670464
+      GirlSprite 1_32: 459431955
+      GirlSprite 1_6: -927605391
+      GirlSprite 1_27: 1697068804
+      GirlSprite 1_8: 1464676533
+      GirlSprite 1_21: 1592518279
+      GirlSprite 1_20: 869519246
+      GirlSprite 1_49: -1739499938
+      GirlSprite 1_28: 2114841886
+      GirlSprite 1_24: 1358673045
+      GirlSprite 1_44: 705151737
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

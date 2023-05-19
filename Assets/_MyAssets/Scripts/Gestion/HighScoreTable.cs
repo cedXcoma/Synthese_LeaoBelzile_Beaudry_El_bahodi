@@ -60,16 +60,16 @@ public class HighScoreTable : MonoBehaviour
         _entryTemplate.gameObject.SetActive(false);
 
 
-        //AddHighScoreEntry(14500, "Dave");  //Teste avec un ajout manuel
-        //AddHighScoreEntry(3400, "Alex");
-        //AddHighScoreEntry(700, "Josée");
-        //AddHighScoreEntry(5500, "Maxime");
-        //AddHighScoreEntry(7800, "David");
-        //AddHighScoreEntry(1800, "Shany");
-        //AddHighScoreEntry(100, "François");
-        //AddHighScoreEntry(0, "Fabrice");
-        //AddHighScoreEntry(100, "Jonathan");
-        //AddHighScoreEntry(100, "Line");
+        AddHighScoreEntry(14500, "zak");  //Teste avec un ajout manuel
+        AddHighScoreEntry(3400, "Alex");
+        AddHighScoreEntry(700, "Josée");
+        AddHighScoreEntry(5500, "Maxime");
+        AddHighScoreEntry(7800, "David");
+        AddHighScoreEntry(1800, "Shany");
+        AddHighScoreEntry(100, "François");
+        AddHighScoreEntry(0, "Fabrice");
+        AddHighScoreEntry(100, "Jonathan");
+        AddHighScoreEntry(100, "Line");
 
 
 
